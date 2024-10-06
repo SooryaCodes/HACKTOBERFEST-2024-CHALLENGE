@@ -4,7 +4,7 @@ Welcome to the **Pixel Perfect Block Challenge** for Hacktoberfest 2024! This re
 
 ---
 
-## 🎨 View Contributors' Projects
+## 🎨 View Contributor's Projects
 Curious to see what other participants have created? Check out all the projects submitted by contributors:
 
 👉 **[Contributors Projects Page](#)** 👈
@@ -29,11 +29,11 @@ Follow the steps below to participate in the challenge:
 ### 2. Clone Your Forked Repository
 - Open your terminal or command prompt, and run the following command:
    ```bash
-   git clone https://github.com/your-username/pixel-perfect-block-challenge.git
+   git clone https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE.git
    ```
 - Navigate to the project directory:
    ```bash
-   cd pixel-perfect-block-challenge
+   cd HACKTOBERFEST-2024-CHALLENGE
    ```
 
 ### 3. Choose a UI Block to Replicate
