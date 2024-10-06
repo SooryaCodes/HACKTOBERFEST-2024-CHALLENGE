@@ -2,8 +2,21 @@
 
 Welcome to the **Pixel Perfect Block Challenge** for Hacktoberfest 2024! This repository challenges developers to replicate pixel-perfect UI designs and contribute to open source.
 
+---
+
+## 🎨 View Contributors' Projects
+Curious to see what other participants have created? Check out all the projects submitted by contributors:
+
+👉 **[Contributors Projects Page](#)** 👈
+
+This page will be regularly updated with all accepted contributions, so make sure to check it out!
+
+---
+
 ## 📝 Challenge Overview
 We've provided a site filled with a variety of **UI block designs** ranging from headers, footers, cards, and more! Your mission is to **replicate these designs** using **HTML, CSS, and optionally JavaScript**. Once you're done, submit your work by **pushing it to this repository**.
+
+Visit [UI Design Daily](https://www.uidesigndaily.com/) to view the UI block designs.
 
 ## 🏆 How to Participate
 
@@ -24,7 +37,7 @@ Follow the steps below to participate in the challenge:
    ```
 
 ### 3. Choose a UI Block to Replicate
-- Visit the provided [design site](#) to view the available UI blocks.
+- Visit [UI Design Daily](https://www.uidesigndaily.com/) to view the available UI blocks.
 - Pick a block you'd like to replicate.
 
 ### 4. Create Your Project Folder
