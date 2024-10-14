@@ -29,7 +29,7 @@ Follow the steps below to participate in the challenge:
 ### 2. Clone Your Forked Repository
 - Open your terminal or command prompt, and run the following command:
    ```bash
-   git clone https://github.com/SooryaCodes/HACKTOBERFEST-2024-CHALLENGE.git
+   git clone https://github.com/YOUR_USERNAME/HACKTOBERFEST-2024-CHALLENGE.git
    ```
 - Navigate to the project directory:
    ```bash
