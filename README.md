@@ -36,22 +36,28 @@ Follow the steps below to participate in the challenge:
    cd HACKTOBERFEST-2024-CHALLENGE
    ```
 
-### 3. Choose a UI Block to Replicate
+### 3. Create a New Branch
+Before you start coding, create a new branch for your work:
+```bash
+git checkout -b your-branch-name
+```
+
+### 4. Choose a UI Block to Replicate
 - Visit [UI Design Daily](https://www.uidesigndaily.com/) to view the available UI blocks.
 - Pick a block you'd like to replicate.
 
-### 4. Create Your Project Folder
+### 5. Create Your Project Folder
 - In your local repository, create a new folder for your project under the `/designs/` directory.
 - Name the folder after your **GitHub username** or **project name**:
    ```bash
    mkdir designs/your-github-username
    ```
 
-### 5. Start Coding
+### 6. Start Coding
 - Replicate the chosen UI block using **HTML, CSS, and optionally JavaScript**.
 - Make sure your design closely matches the provided block.
 
-### 6. Add and Commit Your Changes
+### 7. Add and Commit Your Changes
 - After finishing your work, stage the changes:
    ```bash
    git add .
@@ -61,13 +67,13 @@ Follow the steps below to participate in the challenge:
    git commit -m "Replicated [block-name] by [your-name]"
    ```
 
-### 7. Push Changes to Your Fork
+### 8. Push Changes to Your Fork
 - Push your changes to your forked repository:
    ```bash
    git push origin main
    ```
 
-### 8. Submit a Pull Request
+### 9. Submit a Pull Request
 - Go to your forked repository on GitHub.
 - Click the **New Pull Request** button.
 - Make sure you're merging your fork's `main` branch into the original repository's `main` branch.
