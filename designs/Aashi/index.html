@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #1e1e2d;
+            color: #fff;
+            padding: 20px;
+            cursor: pointer;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .nav-item {
+            margin-bottom: 10px;
+        }
+        .nav-item::before {
+            content: "•";
+            margin-right: 10px;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .team-card {
+            background-color: #2d2d3f;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #fff;
+            color: #2d2d3f;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .upgrade-button {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #ccc;
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>PROJECTS</h2>
+            <div class="nav-item">boardme development</div>
+            <div class="nav-item">Feature lists</div>
+            <div class="nav-item">Marketing</div>
+            <div class="nav-item">UIDD development</div>
+            <div class="nav-item">Topics</div>
+            <div class="nav-item">Bugs and fixes</div>
+            <a href="#" style="color: #fff; text-decoration: none;">View all ></a>
+            
+            <div class="team-card">
+                <h3>Need to form a team?</h3>
+                <p>Try our 30 days trial and see what you can achieve together.</p>
+                <button class="button">Try it free</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <nav>
+                    <a href="#" style="margin-right: 20px; color: #000; text-decoration: none;">Home</a>
+                    <a href="#" style="margin-right: 20px; color: #000; text-decoration: none;">Projects</a>
+                    <a href="#" style="margin-right: 20px; color: #000; text-decoration: none;">Inbox</a>
+                    <a href="#" style="color: #000; text-decoration: none;">Teams</a>
+                </nav>
+                <div style="display: flex; align-items: center;">
+                    <button class="upgrade-button">Upgrade</button>
+                    <div class="user-avatar" style="margin-left: 10px;">JG</div>
+                </div>
+            </div>
+            <h1>Projects</h1>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-icon" style="background-color: #3498db;">M</div>
+                    <div>Marketing</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon" style="background-color: #e74c3c;">Fl</div>
+                    <div>Feature lists</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon" style="background-color: #f39c12;">bd</div>
+                    <div>boardme development</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon" style="background-color: #9b59b6;">Ud</div>
+                    <div>UIDD development</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon" style="background-color: #fff; color: #000; border: 2px dashed #ccc;">+</div>
+                    <div>Add a project</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
